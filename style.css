@@ -253,4 +253,28 @@ footer{
   .footer-tex{
     color: #FFF;
   }
+.mini-section{
+  display: flex;
+}
+.mini-games-logo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 249px;
+  padding-right: 282px;
+  padding-bottom: 100px;
 
+
+
+}
+.mini-games-logo :hover{
+  border: 1px solid red;
+  border-radius: 50px;
+  background: #dd07b9;
+}
+.logo-3 :hover{
+  border: 1px solid red;
+  border-radius: 5px;
+  /* i am sorry sir ami play icon ante pari nay */
+ }
