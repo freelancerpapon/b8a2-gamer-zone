@@ -1,0 +1,149 @@
+/* nav start */
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 240px;
+  padding-right: 240px;
+  align-items: center;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  height: 120px;
+
+  
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.manu-items{
+  display: flex;
+  gap: 32px;
+
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #3C354F;
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+.logo-container img{
+  width: 86.041px;
+  height: 40px;
+}
+.logo-container p{
+  font-size: 30px;
+  font-weight: 700;
+
+}
+.span-g{
+  color: #FF42A5;
+}
+.nav-button{
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.10);
+  border: none;
+  color: #3C354F;
+  
+}
+/* nav end */
+/* main part start */
+.banner-part{
+  display: flex;
+  justify-content: space-between;
+}
+.banner-text{
+  padding-top: 148px;
+  padding-left: 240px;
+  background-image: url(./images/Group14.png);
+  width: 901px;
+  height: 700px;
+  background-repeat: no-repeat;
+
+}
+.h3-class{
+  color: #0B0223;
+  font-size: 48px;
+  font-weight: 600;
+}
+.span-text{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-size: 85px;
+font-weight: 800px;
+
+
+
+}
+.pagragraph-text{
+  color: #534C64;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 17px;
+ padding-left: 20px;
+ 
+}
+
+.button-1{
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  padding: 15px 40px;
+  border: none;
+  color: #FFF;
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  
+  
+}
+  .button-2{
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 15px 40px;
+    border: none; 
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    
+  }
+ .banner-photo{
+  padding-top: 19px;
+  padding-right: 240px;
+ }    
+ .banner-btn{
+  display: flex;
+  gap: 24px;
+  margin-top: 41px;
+  
+ }
+ .online-game{
+  text-align: center;
+ }
+ .online-game-text{
+  color: #0B0223;
+  font-size: 48px;
+  font-weight: 700;
+
+ }
+ .funn-v-sec{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+}
+.online-paragraph{
+  color: #534C64;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
