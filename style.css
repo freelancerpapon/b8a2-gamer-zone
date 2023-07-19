@@ -19,6 +19,7 @@ nav{
 .manu-items{
   display: flex;
   gap: 32px;
+  align-items: center;
 
 }
 li{
@@ -192,3 +193,64 @@ line-height: 60px;
   font-weight: 400;
   line-height: 30px; 
  }
+ .frist-five{
+  display: flex;
+  justify-content: space-around;
+ }
+.small-texts{
+  display: flex;
+}
+.lasst-four{
+  display: flex;
+}
+.footer-logo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.logo-img-two{
+  width: 86.041px;
+height: 40px;
+
+}
+.logo-text-2{
+font-size: 40px;
+font-weight: 700;
+}
+.footer-tex{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  
+}
+.social-logo{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-tex-two{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  color: rgba(255, 255, 255, 0.60);
+}
+.copy-right{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.60);
+  padding-bottom: 130px;
+}
+footer{
+  background-color: #0B0223;
+}
+.logo-text-21{
+  font-size: 45px;
+  font-weight: 700;
+  color: #FFF;
+  }
+  .footer-tex{
+    color: #FFF;
+  }
+
