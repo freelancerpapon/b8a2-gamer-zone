@@ -11,7 +11,8 @@ nav{
   align-items: center;
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  height: 120px;
+  
+  
 
   
 }
@@ -67,6 +68,8 @@ a{
 .banner-part{
   display: flex;
   justify-content: space-between;
+  
+
 }
 .banner-text{
   padding-top: 148px;
@@ -128,6 +131,7 @@ font-weight: 800px;
  .banner-photo{
   padding-top: 19px;
   padding-right: 240px;
+
  }    
  .banner-btn{
   display: flex;
@@ -288,12 +292,22 @@ footer{
   /* i am sorry sir ami play icon ante pari nay */
  }
 
+.hide{
+  display: none;
+}
+
+
+
+
 /* mobie device */
-@media screen and (max-width:576px) {
+@media screen and (max-width:425px) {
   nav{
     flex-direction: column;
    align-items: center;
-  padding-left: 5px;}
+   padding-left: 5px;
+   padding-bottom: 15px;
+   
+  }
     .manu-items {
       flex-direction: column;
     }
@@ -303,9 +317,88 @@ footer{
   padding-left: 245px;
 }
 .banner-part {
-  flex-direction: column;}
+  flex-direction: column-reverse;
+  row-gap: 15px;
+  
+  
+}
   .banner-text {
-    padding-left: 20px;
-  }
+    padding-left: 30px;
+    width: auto;
+    height: 550px;
+   }
+   .online-logo-sec {
+    flex-direction: column;
+    padding-left: 35px;
+    }
+.logo-textss{
+  text-align: center;
+}
+.hard-container {
+  flex-direction: column;
+  margin-top: 0;
+}
+.hard-sec-texts{
+padding-left: 10px;
+
+}
+.hard-tex{
+  padding-left: 30px;
+  width: 350px;
+}
+.hard-para{
+  padding-left: 27px;
+  width: 350px;
+}
+.hard-img{
+  padding-top: 50px;
+}
+.first{
+  width: 400px;
+  padding-left: 5px;
+}
+.sceond{
+  width: 200px;
+  padding-left: 95px;
+  padding-top: 100px;
+}
+.kids-photo{
+  width: 400px;
+}
+.mini-games-logo{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 10px;
+  padding-right: 0;
+  width: 390px;
+
+
+}
+.mini-games{
+  width: 50px;
+  
+}
+.mini-section img{
+  width: 40px;
+  height: 50px;
+  padding-top: 10px;
+}
+
+.footer-tex-two{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding-left: 50px;
+}
+.footer-tex{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  padding-left: 35px;
+}
+.copy-right{
+  width: 350px;
+  padding-left: 30px;
+}
 
 }
