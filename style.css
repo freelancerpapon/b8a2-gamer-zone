@@ -285,10 +285,13 @@ footer{
   border: 1px solid red;
   border-radius: 50px;
   background: #dd07b9;
+  color: #FFF;
+  cursor: pointer;
 }
 .logo-3 :hover{
   border: 1px solid red;
   border-radius: 5px;
+  cursor: pointer;
   /* i am sorry sir ami play icon ante pari nay */
  }
 
